@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <div class="todo-header">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <h1>Todo List <i class="fas fa-check-circle"></i></h1>
+                <div class="input-section">
+                    <input type="text" id="task-input" placeholder="Add your task...">
+                    <input type="date" id="due-date" class="due-date-input">
+                    <select id="priority" class="priority-select">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                    <input type="text" id="category" placeholder="Category" class="category-input">
+                    <button id="add-btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <div class="search-section">
+                    <input type="text" id="search-input" placeholder="Search tasks...">
+                </div>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+            </div>
+
+            <div class="task-list-container">
+                <ul id="task-list">
+                    <!-- Tasks will be added here dynamically -->
+                </ul>
+            </div>
+
+            <div class="todo-stats">
+                <div class="stats-content">
+                    <span id="tasks-counter">0 tasks left</span>
+                    <div class="todo-actions">
+                        <button id="save-tasks" class="action-btn">
+                            <i class="fas fa-save"></i> Save Tasks
+                        </button>
+                        <button id="clear-completed" class="action-btn">Clear Completed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
