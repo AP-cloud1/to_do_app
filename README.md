@@ -5,8 +5,10 @@ Author- AYUSH PUNDIR<br>
 <h2>Overview<h2>
 <br>
 This is a feature-rich To-Do application designed with a visually appealing UI that includes a beautiful theme and a day-night mode switch button. The app allows users to efficiently manage their tasks by adding priorities, due dates, and categories.
-<br><br><hr>
-<h2>#Features<h2>
+<br><br>
+<h2>🎥 Live Demo<h2> - https://ap-cloud1.github.io/to_do_app/  
+<br>
+<h2>Features<h2>
 <br>
 #Add Tasks: Users can add new tasks with a title, priority level, due date, and category.
 <br>
