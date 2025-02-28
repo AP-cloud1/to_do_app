@@ -1,12 +1,12 @@
 # to_do_app
 Author- AYUSH PUNDIR<br>
-##To-Do App with Beautiful Theme and Day-Night Mode
+<h1>📜To-Do App with Beautiful Theme and Day-Night Mode<h1>
 <br>
-#Overview
+<h2>Overview<h2>
 <br>
 This is a feature-rich To-Do application designed with a visually appealing UI that includes a beautiful theme and a day-night mode switch button. The app allows users to efficiently manage their tasks by adding priorities, due dates, and categories.
 <br><br><hr>
-#Features
+<h2>#Features<h2>
 <br>
 #Add Tasks: Users can add new tasks with a title, priority level, due date, and category.
 <br>
@@ -22,7 +22,7 @@ This is a feature-rich To-Do application designed with a visually appealing UI t
 <br>
 #Responsive Design: Works seamlessly on different screen sizes and devices.
 <br><br>
-#Installation
+<h2>Installation<h2>
 <br>
 #Clone this repository:
 <br>
@@ -40,11 +40,11 @@ npm install
 <br>
 #npm start
 <br><br>
-Usage
+<h2>Usage<h2>
 <br>
 #Open the application in your browser.
 <br>
-Click on "Add Task" to create a new task.
+#Click on "Add Task" to create a new task.
 <br>
 #Set the priority level, due date, and category.
 <br>
@@ -52,7 +52,7 @@ Click on "Add Task" to create a new task.
 <br>
 #View and manage tasks easily in the task list.
 <br>
-#Technologies Used
+<h2>🛠️Technologies Used<h2>
 <br>
 #Frontend: HTML, CSS, JavaScript, React
 <br>
@@ -64,15 +64,15 @@ Click on "Add Task" to create a new task.
 <br>
 <br>
 <hr>
-#Contributing<br>
+<h2>🤝 Contributing<h2><br>
 
 Feel free to contribute by opening issues or submitting pull requests.
 <br>
-License
+<h2>📜License<h2>
 <br>
 This project is licensed under the MIT License.
 <br>
-Contact
+<h2>📩Contact<h2>
 
-For any queries, contact [AYUSH PUNDIR] at [pundirayush258@gmail.com].
+For any queries, contact [AYUSH PUNDIR]  📧 email at [pundirayush258@gmail.com].
 
